@@ -1,4 +1,4 @@
-package main.java.easy;
+package main.java.medium;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
