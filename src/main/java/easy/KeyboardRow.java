@@ -1,13 +1,11 @@
 package main.java.easy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
+/*
+https://leetcode.com/problems/keyboard-row/
+*/
 public class KeyboardRow {
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(findWords(new String[]{"Hello", "Alaska", "Dad", "Peace"})));
-    }
-
     public static String[] findWords(String[] words) {
         ArrayList<String> result = new ArrayList<>();
         String[] rows = new String[]{"[qwertyuiop]", "[asdfghjkl]", "[zxcvbnm]"};
